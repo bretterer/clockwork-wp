@@ -1,0 +1,18 @@
+{
+    "name": "lamarus/clockwork-wp",
+    "description": "WordPress plugin for using clockwork",
+    "keywords": ["debugging", "profiling", "logging", "wordpress"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Retterer",
+            "email": "brian.retterer@cratosdesign.com"
+        }
+    ],
+    "require": {
+        "itsgoingd/clockwork": "1.5.*"
+    },
+    "autoload": {
+        "psr-0": {"Clockwork": ""}
+    }
+}
